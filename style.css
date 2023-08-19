@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50vw;
+    height: 80vh;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+#submit-button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px 0;
+}
+input{
+    padding: 5px 0;
+    padding-left: 5px;
+}
